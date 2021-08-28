@@ -6,7 +6,9 @@
     <title>เกมวิ่งเลือกคำ</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 1125px; height: 2436px; background: #231F20"></canvas>
+    <div style="max-width: 100%; max-height: 100%; overflow: scroll;">
+      <canvas canvas id="unity-canvas" style="width: 750px; height: 1624px; background: #231F20"></canvas>
+    </div>
     <script src="Build/Downloads.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
